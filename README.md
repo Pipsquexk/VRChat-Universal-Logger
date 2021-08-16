@@ -2,11 +2,11 @@
 
 ## Current Logs
 
-- LoadBalancingClient Events
+- Toggleable LoadBalancingClient Events
 
-- LoadBalancingPeer Events
+- Toggleable LoadBalancingPeer Events
 
-- PhotonNetwork Events
+- Toggleable PhotonNetwork Events
 
 - UdonSync.RunProgramAsRPC() calls
 
