@@ -60,50 +60,6 @@ namespace UniLogger
                 UniLogger.Harmony.Patches.UnpatchAll();
             }
 
-
-            /* UNRELIABLE MUTE USER
-            if (GUI.Button(new Rect(5, 215, 200, 40), "Mute User"))
-            {
-
-                var reo = new RaiseEventOptions()
-                {
-                    field_Public_ReceiverGroup_0 = ReceiverGroup.Others,
-                    field_Public_Byte_0 = 0,
-                    field_Public_Byte_1 = 0,
-                    field_Public_EventCaching_0 = EventCaching.DoNotCache,
-                    field_Public_ArrayOf_Int32_0 = null,
-                    field_Public_WebFlags_0 = 
-                    new WebFlags(0) 
-                    { 
-                        field_Public_Byte_0 = 0,
-                        prop_Boolean_0 = false,
-                        prop_Boolean_1 = false,
-                        prop_Boolean_2 = false,
-                        prop_Boolean_3 = false
-                    }
-
-                };
-                var so = new SendOptions()
-                {
-                    DeliveryMode = DeliveryMode.Reliable,
-                    Reliability = true,
-                    Channel = 0,
-                    Encrypt = true
-                };
-                PhotonNetwork.field_Public_Static_LoadBalancingClient_0.Method_Public_Virtual_New_Boolean_Byte_Object_RaiseEventOptions_SendOptions_0(33, Serialization.FromManagedToIL2CPP(new Dictionary<byte, object>() { { 3, true }, { 0, 23 }, { 1, "USERIDGOESHERE" } }), reo, so);
-                var req = new HTTPRequest(new Il2CppSystem.Uri("https://api.vrchat.cloud/api/1/auth/user/playermoderations?apiKey=JlE5Jldo5Jibnk5O5hTx6XVqsJu4WJ26&organization=vrchat"), HTTPMethods.Post);
-                var ctHead = new Il2CppSystem.Collections.Generic.List<string>();
-                ctHead.Add("application/json");
-                var headersDic = new Il2CppSystem.Collections.Generic.Dictionary<string, Il2CppSystem.Collections.Generic.List<string>>();
-                headersDic.Add("content-type", ctHead);
-                req.Headers = headersDic;
-                req.Cookies.Add(new BestHTTP.Cookies.Cookie("Cookie", ApiCredentials.authToken));
-                req.Cookies.Add(new BestHTTP.Cookies.Cookie("Cookie", ""));
-                req.RawData = System.Text.Encoding.Default.GetBytes(@"{""type"":""mute"", ""moderated"":""USERIDGOESHERE"", ""created"":""01/01/000100:00:00""}");
-                req.Send();
-            }
-            */
-
         }
     }
 }
