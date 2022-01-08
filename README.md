@@ -29,3 +29,6 @@
 | Event | 1 | 3 | 6 | 7 | 8 | 9 | 33 | 202 |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | Log type | Named | Named | Named | Named | Named | Named | Named | Named |
+
+
+Credit to Greengray? for the majority of Serialization.cs
